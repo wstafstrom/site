@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Will Stafstrom</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">Will <span class="logo_colour">Stafstrom</span></a></h1>
+          <h2>Plant Breeding & Genetics PhD Candidate Cornell University</h2>
+        </div>
+      </div>
+      <nav>
+        <ul class="sf-menu" id="nav">
+          <li class="selected"><a href="index.html">Home</a></li>
+          <li><a href="research_projects.html">Research Projects</a></li>
+          <li><a href="cv.html">CV</a></li>
+          <li><a href="resources.html">Resources</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="site_content">
+      <ul id="images">
+        <li><img src="images/corn_nc_sunrise.jpg" width="600" height="300" alt="corn_nc_sunrise" /></li>
+        <li><img src="images/kongwa.jpg" width="600" height="300" alt="kongwa_landscape" /></li>
+        <li><img src="images/kongwa_corn_mold.JPG" width="600" height="300" alt="kongwa_corn_mold" /></li>
+        <li><img src="images/nc_fv_corn.JPG" width="600" height="300" alt="nc_fv_corn" /></li>
+        <li><img src="images/fv_micro.jpg" width="600" height="300" alt="fv_microscope" /></li>
+        <li><img src="images/corn_cobs.jpg" width="600" height="300" alt="corn_cobs" /></li>
+      </ul>
+      <div id="sidebar_container">
+        <div class="sidebar">
+          <h3>Latest News</h3>
+          <h4>New Website Launched</h4>
+          <h5>January 1st, 2012</h5>
+          <p>2012 sees the redesign of our website. Take a look around and let us know what you think.<br /><a href="#">Read more</a></p>
+        </div>
+        <div class="sidebar">
+          <h3>Useful Links</h3>
+          <ul>
+            <li><a href="#">First Link</a></li>
+            <li><a href="#">Another Link</a></li>
+            <li><a href="#">And Another</a></li>
+            <li><a href="#">Last One</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="content">
+        <h1>Resources</h1>
+      </div>
+    </div>
+    <footer>
+      <p><a href="http://www.css3templates.co.uk">design from css3templates.co.uk</a></p>
+    </footer>
+  </div>
+  <p>&nbsp;</p>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+  <script type="text/javascript" src="js/jquery.kwicks-1.5.1.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#images').kwicks({
+        max : 600,
+        spacing : 2
+      });
+      $('ul.sf-menu').sooperfish();
+    });
+  </script>
+</body>
+</html>
